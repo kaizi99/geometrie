@@ -10,14 +10,14 @@ enum class Angaben{
 	Oberflaeche
 };
 
-class Kreis
+class Kugel
 {
 public:
 	//Konstruktor
-	Kreis(double number, Angaben type);
+	Kugel(double number, Angaben type);
 
 	//Destruktor
-	~Kreis();
+	~Kugel();
 
 	//Getter-Funktionen
 	double getR();

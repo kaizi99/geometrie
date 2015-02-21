@@ -1,3 +1,3 @@
 #pragma once
 
-static double bruchwertBerechnen(double zaehler, double nenner);
+double bruchwertBerechnen(double zaehler, double nenner);

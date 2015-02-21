@@ -9,6 +9,6 @@
 
 #include <stdio.h>
 #include <tchar.h>
-#include "kreis.h"
+#include "Kugel.h"
 
 // TODO: reference additional headers your program requires here

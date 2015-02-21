@@ -2,7 +2,7 @@
 #include <iostream>
 #include "KaiMath.h"
 
-Kreis::Kreis(double number, Angaben type)
+Kugel::Kugel(double number, Angaben type)
 {
 	if (type == Angaben::Durchmesser) { //Wenn der Durchmesser angegeben wurde
 		r = number / 2;
@@ -30,50 +30,50 @@ Kreis::Kreis(double number, Angaben type)
 	}
 }
 
-Kreis::~Kreis()
+Kugel::~Kugel()
 {
 }
 
 //Getter für r
-double Kreis::getR() 
+double Kugel::getR()
 {
 	return r;
 }
 
 //Getter für o
-double Kreis::getO() 
+double Kugel::getO()
 {
 	return o;
 }
 
 //Getter für d
-double Kreis::getD() 
+double Kugel::getD()
 {
 	return d;
 }
 
 //Getter für v
-double Kreis::getV()
+double Kugel::getV()
 {
 	return v;
 }
 
 //Berechnet die Oberfäche mit dem Radius
-void Kreis::OberflaecheBerechnen()
+void Kugel::OberflaecheBerechnen()
 {
 	//Oberfläche wird mit O = (3/4) * PI * r^2 berechnet
 	o = 4 * M_PI * pow(r, 2);
 }
 
 //Berechnet das Volumen mit dem Radius
-void Kreis::VolumenBerechnen()
+void Kugel::VolumenBerechnen()
 {
 	//Volumen wird mit V = (4/3) * PI * r^3 berechnet
 	v = bruchwertBerechnen(4, 3) * M_PI * pow(r, 3);
 }
 
 //Berechnet den Radius mit des Volumens
-void Kreis::RadiusMitVolumen()
+void Kugel::RadiusMitVolumen()
 {
 	//Radius wird berechnet mit cbrt(V / 4 * 3 / PI)
 	//cbrt = Dritte Wurzel
@@ -81,7 +81,7 @@ void Kreis::RadiusMitVolumen()
 }
 
 //Berechnet den Radius mit der Oberfläche
-void Kreis::RadiusMitOberflaeche()
+void Kugel::RadiusMitOberflaeche()
 {
 	//Radius wird berechnet mit sqrt(o / 4 * PI)
 	//sqrt = Quadratwurzel

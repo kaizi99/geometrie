@@ -24,10 +24,10 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="kreis.h">
+    <ClInclude Include="KaiMath.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="KaiMath.h">
+    <ClInclude Include="Kugel.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -38,10 +38,10 @@
     <ClCompile Include="Geometrie.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="kreis.cpp">
+    <ClCompile Include="KaiMath.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="KaiMath.cpp">
+    <ClCompile Include="kugel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

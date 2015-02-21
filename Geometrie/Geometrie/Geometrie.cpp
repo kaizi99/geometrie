@@ -2,13 +2,13 @@
 //
 
 #include "stdafx.h"
-#include "kreis.h"
+#include "Kugel.h"
 #include <iostream>
 
 int main(int argc, char* argv[])
 {
-	//Einen neuen Kreis erstellen
-	Kreis* k = new Kreis(5, Angaben::Radius);
+	//Eine neue Kugel erstellen
+	Kugel* k = new Kugel(5, Angaben::Radius);
 
 	//Wir holen uns die Berechneten Werte aus dem Pointer
 	double V = k->getV();
