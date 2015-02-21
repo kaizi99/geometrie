@@ -1,8 +1,6 @@
 #include "stdafx.h"
 #include <iostream>
-
-//Berechnet den Wert eines Bruches
-double BruchwertBerechnen(double zaehler, double nenner);
+#include "KaiMath.h"
 
 Kreis::Kreis(double number, Angaben type)
 {
@@ -71,7 +69,7 @@ void Kreis::OberflaecheBerechnen()
 void Kreis::VolumenBerechnen()
 {
 	//Volumen wird mit V = (4/3) * PI * r^3 berechnet
-	v = BruchwertBerechnen(4, 3) * M_PI * pow(r, 3);
+	v = bruchwertBerechnen(4, 3) * M_PI * pow(r, 3);
 }
 
 //Berechnet den Radius mit des Volumens
@@ -87,11 +85,5 @@ void Kreis::RadiusMitOberflaeche()
 {
 	//Radius wird berechnet mit sqrt(o / 4 * PI)
 	//sqrt = Quadratwurzel
-	r = sqrt(BruchwertBerechnen(o, 4 * M_PI));
+	r = sqrt(bruchwertBerechnen(o, 4 * M_PI));
 }
-
-//Berechnet den Wert eines Bruches
-double BruchwertBerechnen(double zaehler, double nenner)
-{
-	return zaehler / nenner;
-} 
