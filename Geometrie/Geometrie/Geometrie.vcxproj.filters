@@ -27,9 +27,6 @@
     <ClInclude Include="kreis.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Bruch.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -39,9 +36,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="kreis.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Bruch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
