@@ -11,6 +11,4 @@
 #include <tchar.h>
 #include "kreis.h"
 
-
-
 // TODO: reference additional headers your program requires here

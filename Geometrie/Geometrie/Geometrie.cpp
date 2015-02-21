@@ -5,18 +5,18 @@
 #include "kreis.h"
 #include <iostream>
 
-int _tmain(int argc, _TCHAR* argv[])
+int main(int argc, char* argv[])
 {
 	//Einen neuen Kreis erstellen
-	Kreis* k = new Kreis(523.688, Volumen);
+	Kreis* k = new Kreis(5, Angaben::Radius);
 
-	//Wir holen uns die Berechneten werte aus dem Pointer
+	//Wir holen uns die Berechneten Werte aus dem Pointer
 	double V = k->getV();
 	double O = k->getO();
 	double R = k->getR();
 
 	//Der Durchmesser wird berechnet
-	double D = R * 2;
+	double D = k->getD();
 
 	//Eigenschaften des Kreises ausgeben
 	std::cout << "Volumen: " << V << std::endl;
