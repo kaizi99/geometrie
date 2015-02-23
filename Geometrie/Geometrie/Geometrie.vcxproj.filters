@@ -24,10 +24,13 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="KaiMath.h">
+    <ClInclude Include="Kugel.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Kugel.h">
+    <ClInclude Include="Pyramide.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KaiMath.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -42,6 +45,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="kugel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pyramide.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
